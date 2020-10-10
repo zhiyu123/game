@@ -67,7 +67,7 @@ void player_move(char board[ROW][COL], int row, int col)	//玩家走
 	printf("玩家走>\n");
 	while (1)
 	{
-		printf("请输入坐标：");
+		printf("输入坐标：");
 		scanf("%d %d", &i, &j);
 		if (i >= 1 && i <= 3 && j >= 1 && j <= 3)
 		{
@@ -78,7 +78,7 @@ void player_move(char board[ROW][COL], int row, int col)	//玩家走
 			}
 			else
 			{
-				printf("该坐标已被占用，请重新输入！\n");
+				printf("该坐标被占用，请重新输入！\n");
 			}
 		}
 		else
