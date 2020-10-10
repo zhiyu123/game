@@ -1,0 +1,3 @@
+﻿  push_box.c
+D:\VS2019 project\Push Box\push_box.c(168,6): warning C4101: “a”: 未引用的局部变量
+  Push Box.vcxproj -> D:\VS2019 project\Push Box\Debug\Push Box.exe
